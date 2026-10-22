@@ -33,9 +33,10 @@ export function Hero() {
         {hero.kicker}
       </p>
       <h1 className="relative mt-4 max-w-full font-script text-5xl leading-tight text-white drop-shadow-lg sm:text-7xl md:text-8xl">
-        <span className="inline-block">{couple.partnerA}</span>{" "}
-        <span className="text-gold">&</span>{" "}
-        <span className="inline-block">{couple.partnerB}</span>
+        <span className="block sm:inline">
+          {couple.partnerA} <span className="text-gold">&</span>
+        </span>{" "}
+        <span className="block sm:inline">{couple.partnerB}</span>
       </h1>
       <p className="relative mt-6 font-display text-xl text-white drop-shadow-md md:text-2xl">
         {displayDate}
