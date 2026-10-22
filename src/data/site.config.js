@@ -44,7 +44,10 @@ export const site = {
       "Smt. G. Gowramma and Sri K.V. Venkata Swamy of Kadirenahalli, Tekal Hobali, Malur Taluk, Kolar District, joyfully invite you, with your family and friends, to the marriage of their only daughter, Harshitha K.V., with Chandan D., elder son of Smt. Kantamma and Sri K. Devaraju of K. Muttukadahalli, Sidlaghatta Taluk, Chikkaballapur District.",
       "The muhurtham (wedding ceremony) will take place on Wednesday, 4 November 2026, between 9:30 AM and 10:30 AM, in the Dhanassu lagna. We would be honoured to have you bless the bride and groom as they begin their life together.",
     ],
-    signOff: "Yours, Smt. G. Gowramma, Sri K.V. Venkata Swamy and Sri Dr. K.V. Jeevan Kumar",
+    signOff: [
+      "Yours, Smt. G. Gowramma and Sri K.V. Venkata Swamy",
+      "Sri Dr. K.V. Jeevan Kumar",
+    ],
   },
   countdown: {
     heading: "Until the muhurtham",
