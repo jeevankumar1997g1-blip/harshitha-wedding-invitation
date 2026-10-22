@@ -3,6 +3,9 @@ import { MarigoldGarland } from "./Florals";
 
 export function Invitation() {
   const { invitation, couple } = site;
+  const signOffLines = Array.isArray(invitation.signOff)
+    ? invitation.signOff
+    : [invitation.signOff];
 
   return (
     <section id="invitation" className="scroll-mt-6 px-5 py-20">
@@ -19,11 +22,15 @@ export function Invitation() {
             {paragraph}
           </p>
         ))}
-        <p className="mt-8 font-script text-4xl text-accent-deep">
-          {invitation.signOff}
-        </p>
-        <p className="mt-1 font-display text-lg text-ink">
-          {couple.partnerA} & {couple.partnerB}
+        <div className="mt-8 font-display text-base leading-7 text-ink md:text-lg">
+          {signOffLines.map((line) => (
+            <p key={line}>{line}</p>
+          ))}
+        </div>
+        <p className="mt-4 font-script text-5xl leading-tight text-accent-deep sm:text-6xl md:text-7xl">
+          {couple.partnerA}
+          <span className="mx-2 text-gold">&</span>
+          {couple.partnerB}
         </p>
       </div>
     </section>
