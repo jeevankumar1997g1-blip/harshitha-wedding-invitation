@@ -79,7 +79,7 @@ export const site = {
       date: "4 November 2026",
       time: "9:30 AM to 10:30 AM",
       venue: "Sri Nandini Palace, Kumbarahalli, Tamaka, Kolar",
-      note: "The wedding ceremony in the Dhanassu lagna. Please be seated a little before the muhurtham.",
+      note: "The wedding ceremony in the Dhanassu lagna.",
       accent: "marigold",
       mapsUrl: "https://maps.app.goo.gl/o8pawrH7YYrntkud8",
     },
