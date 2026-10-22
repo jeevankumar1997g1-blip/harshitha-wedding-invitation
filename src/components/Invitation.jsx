@@ -27,10 +27,10 @@ export function Invitation() {
             <p key={line}>{line}</p>
           ))}
         </div>
-        <p className="mt-4 font-script text-5xl leading-tight text-accent-deep sm:text-6xl md:text-7xl">
-          {couple.partnerA}
-          <span className="mx-2 text-gold">&</span>
-          {couple.partnerB}
+        <p className="mt-4 max-w-full font-script text-4xl leading-tight text-accent-deep sm:text-6xl md:text-7xl">
+          <span className="inline-block">{couple.partnerA}</span>{" "}
+          <span className="text-gold">&</span>{" "}
+          <span className="inline-block">{couple.partnerB}</span>
         </p>
       </div>
     </section>
